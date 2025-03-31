@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #18181b; 
+    color: aliceblue;
+     gap: 25px;
+}
+.container{
+    display: flex;
+    align-items: center;
+   
+    gap: 3.5rem;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #262626;
+    border-radius: 8px;
+}
+   
+    
+
+#img img {
+    width: 31rem;
+    
+}
+#title {
+    font-size: 2.25rem;
+    position: relative;
+}
+
+#title::after {
+    position: absolute;
+    content: '';
+    width: 8rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #c01a1a;
+    bottom: 0;
+    left: 0;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #f8fafc;
+    
+
+}
